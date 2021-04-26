@@ -1,16 +1,23 @@
 # kickstarter-analysis
 Analyzing Kickstarter data to find trends
+
 ## Overview of Project
+This project examines the outcomes of kickstarter campaigns for plays by analyzing potential correlations between the campaigns' successes or failures, and their 
 
 ### Purpose
 
+
 ## Analysis and Challenges
+
 
 ### Analysis of Outcomes Based on Launch Date
 
+
 ### Analysis of Outcomes Based on Goals
 
+
 ### Challenges and Difficulties Encountered
+
 
 ## Results
 
