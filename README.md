@@ -1,5 +1,5 @@
 # kickstarter-analysis
-Analyzing Kickstarter data to find trends
+Analyzing Kickstarter campaign trends for playwright Louise
 
 ## Overview of Project
 This project examines the outcomes of kickstarter campaigns for plays by analyzing the campaigns' successes or failures based on the time of year they were launched, and how high their fundraising goals were.
