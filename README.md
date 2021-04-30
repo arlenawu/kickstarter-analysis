@@ -2,13 +2,13 @@
 Analyzing Kickstarter campaign trends for playwright Louise
 
 ## Overview of Project
-This project examines the outcomes of kickstarter campaigns for plays by analyzing the campaigns' successes or failures based on the time of year they were launched, and how high their fundraising goals were.
+This project examines the outcomes of kickstarter campaigns for plays by analyzing the campaigns' successes or failures based on the time of year they were launched, and how high their fundraising goals were. The dataset includes kickstarter campaigns ranging from 2009 to 2017.
 
 ### Purpose
 This purpose of this project is to see whether the launch date or the fundraising goals for plays on Kickstarter has any relation to whether or not a campaign is successful.
 
 ## Analysis and Challenges
-
+The analysis can be broken down into two sections -- analysis of campaign outcomes based on launch date, and analysis of campaign outcomes based on fundraising goals. Before tackling either of these sections, however, a few changes needed to be made to the raw dataset.
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -17,7 +17,7 @@ This purpose of this project is to see whether the launch date or the fundraisin
 
 
 ### Challenges and Difficulties Encountered
-
+There weren't any overt difficulties in the analysis, but there was some tedium when creating the table in the Outcomes Based on Goals tab of the xlsx file. The formulas needed in the first few columns couldn't easily be copied to fill out every cell with Excel's built-in quick-fill functions. Every cell needed a little bit of manual editing to ensure they had the correct formula, and because of this, special care had to be taken to ensure that there were no mistakes or typos in any of them.
 
 ## Results
 
@@ -33,6 +33,6 @@ A majority of campaigns with goals that were less than $5000 USD were successful
 
 This data set doesn't take into account other factors that could influence the outcomes of the kickstarter campaigns, such as advertisement strategies, genre of the plays, duration of the campaign, or whether or not the a campaign was highlighted by kickstarter as a staff pick.
 
-- Potentialy Avenues for Future Analysis
+- Potential Avenues for Future Analysis
 
 It would be quite interesting to see if there are any correlations between campaign outcomes, their fundraising goals, and the duration for how long the campaigns lasted. It may also be useful to know how many backers each campaign had, and how much each campaign raised, to see on average approximately how much each backer would pledge -- this information would be useful to to gather an idea of how many people would need to be attracted in advertising campaigns.
