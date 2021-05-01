@@ -5,10 +5,12 @@ Analyzing Kickstarter campaign trends for playwright Louise
 This project examines the outcomes of kickstarter campaigns for plays by analyzing the campaigns' successes or failures based on the time of year they were launched, and how high their fundraising goals were. The dataset includes kickstarter campaigns ranging from 2009 to 2017.
 
 ### Purpose
-This purpose of this project is to see whether the launch date or the fundraising goals for plays on Kickstarter has any relation to whether or not a campaign is successful.
+This purpose of this project is to see whether the launch date or the fundraising goals for plays on Kickstarter has any relation to whether or not a campaign is successfully funded.
 
 ## Analysis and Challenges
-The analysis can be broken down into two sections -- analysis of campaign outcomes based on launch date, and analysis of campaign outcomes based on fundraising goals. Before tackling either of these sections, however, a few changes needed to be made to the raw dataset.
+The analysis can be broken down into two sections -- analysis of campaign outcomes based on launch date, and analysis of campaign outcomes based on fundraising goals. Before tackling either of these sections, however, a few adjustments needed to be made to the raw dataset first.
+
+First, the Category of the types of kickstarters there were (music, publishing, theater, etc.) needed to be split into two columns, the Parent Category, and the Subcategory, so that the analysis could specifically focus on Plays, a subcategory of the parent category, Theater. This was done using the "Convert Text to Columns Wizard" in the Data tab of Excel. Next, because the calendar dates of the raw data were written in Unix timestamps, they were converted into the standard mm/dd/yyyy format so that the campaigns could be more easily analyzed by their launch dates.
 
 ### Analysis of Outcomes Based on Launch Date
 
