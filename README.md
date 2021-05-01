@@ -16,7 +16,7 @@ First, the Category of the types of kickstarters there were (music, publishing, 
 [image](https://github.com/arlenawu/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Analysis of Outcomes Based on Goals
-[Outcomes Based on Goals](https://github.com/arlenawu/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+[Outcomes Based on Goals](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Challenges and Difficulties Encountered
 There weren't any overt difficulties in the analysis, but there was some tedium when creating the table in the Outcomes Based on Goals tab of the xlsx file. The formulas needed in the first few columns couldn't easily be copied to fill out every cell with Excel's built-in quick-fill functions. Every cell needed a little bit of manual editing to ensure they had the correct formula, and because of this, special care had to be taken to ensure that there were no mistakes or typos in any of them.
