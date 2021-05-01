@@ -13,7 +13,7 @@ The analysis can be broken down into two sections -- analysis of campaign outcom
 First, the Category of the types of kickstarters there were (music, publishing, theater, etc.) needed to be split into two columns, the Parent Category, and the Subcategory, so that the analysis could specifically focus on Plays, a subcategory of the parent category, Theater. This was done using the "Convert Text to Columns Wizard" in the Data tab of Excel. Next, because the calendar dates of the raw data were written in Unix timestamps, they were converted into the standard mm/dd/yyyy format so that the campaigns could be more easily analyzed by their launch dates.
 
 ### Analysis of Outcomes Based on Launch Date
-
+[image](https://github.com/arlenawu/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Analysis of Outcomes Based on Goals
 
